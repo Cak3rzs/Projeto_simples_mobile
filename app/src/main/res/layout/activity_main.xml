@@ -33,7 +33,7 @@
         android:id="@+id/chkleite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leite(R$5,00)"
+        android:text="Leite (R$5,00)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -45,7 +45,7 @@
         android:id="@+id/chkcarne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Carne(R$45,50)"
+        android:text="Carne (R$45,50)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.021"
@@ -57,7 +57,7 @@
         android:id="@+id/chkfeijao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Feijão(R$10,50)"
+        android:text="Feijão (R$10,50)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.021"
@@ -76,6 +76,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.699" />
+
+    <Button
+        android:id="@+id/btpagamento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Escolha o Método de Pagamento"
+        android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/bttotal"
+    app:layout_constraintVertical_bias="0.02" />
 
     <ImageView
         android:layout_width="match_parent"
